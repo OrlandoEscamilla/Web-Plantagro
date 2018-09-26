@@ -1,0 +1,1332 @@
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #37414b;
+	background-color: #024162;
+
+}
+
+::-webkit-scrollbar
+{
+	width: 8px;
+	background-color: #37414b;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #bec3c7;
+}
+
+::-moz-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #37414b;
+}
+
+::-moz-scrollbar
+{
+	width: 8px;
+	background-color: #37414b;
+}
+
+::-moz-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #bec3c7;
+}
+
+*{
+	margin: 0;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: fuenteplantagro;
+}
+
+body{
+	overflow-y:hidden;																																
+}
+
+.contenedor_derecho{
+	width: 400px;
+	height: 100%;
+	background-color: rgba(236,188 ,14 , 0.8);
+	position: fixed;
+	top: 0px;
+	z-index: 11111111111111111;
+	padding: 20px 30px;
+}
+.contenedor_logo{
+	width: 210px;
+	margin-bottom: 140px;
+	
+	margin-top: -7px;
+}
+.contenedor_logo img{
+	width: 100%;
+}
+
+
+.intro{
+	color: #fff;
+	font-family: fuenteplantagro;
+	font-size: 33px;
+}
+
+.contenedor_pie{
+	width: 100%;
+	height: 180px;
+	position: absolute;
+	bottom: 20px;
+}
+.contenedor_mas{
+	width: 50px;
+	margin-bottom: 55px;
+	padding-bottom: 5px;
+}
+.contenedor_mas img:hover{
+	-webkit-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.20);
+-moz-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.20);
+box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.20);
+transition: 0.3s;
+cursor: pointer;
+}
+
+.contenedor_mas img{
+	width: 100%;
+	transition: 0.3s;
+
+}
+
+.pie_pagina{
+	font-size: 12px;
+	color: #fff;
+}
+
+header{
+	width: 100%;
+	height: 100px;
+	padding-top: 1px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 11111111111111111111111111111111111111111111111111111111111111111;
+	
+}
+
+header nav ul li{
+	display: inline-block;
+}
+header nav ul{
+	margin-top: 35px;
+	float: right;
+	margin-right: 50px;
+}
+header nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-family: fuenteplantagro;
+	font-size: 18px;
+	margin-right: 25px;
+	padding:7px;
+	border-radius: 5px;
+	transition: 0.3s;
+}
+
+
+#nav_menu ul li a:hover{
+	color:#00386a;
+	transition: 0.3s;
+}
+
+.contenedor_logo_responsiv{
+	width: 180px;
+	margin-bottom: 140px;
+	margin-top: 20px;
+	margin-left: 10px;
+	float: left;
+	display: none;
+}
+
+.contenedor_logo_responsiv img{
+	width: 100%;
+}
+
+#nav_responsive{
+		display: none;
+	}
+
+
+
+
+
+	.container{
+		width: 80%;
+		height: auto;
+		margin: 0 auto;
+		margin-top: 100px;
+		padding-right: 0px;
+		padding-left: 0px;
+		display: none;
+	}
+
+
+	.containerimg_vision{
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+		z-index: -111111111111;
+	}
+
+	.containerimg_vision img{
+		width: 100%;
+		z-index: -111111111111;
+	}
+
+
+	.containerdes_vision{
+		background-color: #fff;
+		padding: 30px;
+		width: 90%;	
+		margin-top: -10px;
+		float: right;
+		z-index: 11111;
+		color: #003454;
+		margin-bottom: 70px;
+	}
+
+
+	.containerdes_productos{
+		background-color: #fff;
+		padding: 30px;
+		width: 90%;
+		margin-top: -10px;
+		height: 400px;
+		float: right;
+		
+		z-index: 11111;
+		
+		color: #003454;
+		margin-bottom: 70px;
+		
+
+	}
+
+
+
+	.container_servicio{
+		width: 80%;
+		height: auto;
+		margin: 0 auto;
+		margin-top: 200px;
+		padding-right: 0px;
+		padding-left: 0px;
+		display:none;
+		background-color: #fff;
+	}
+
+
+	.container_sitios{
+		width: 80%;
+		height: auto;
+		margin: 0 auto;
+		margin-top: 200px;
+		padding-right: 0px;
+		padding-left: 0px;
+		display: none;
+		padding: 20px;
+		background-color: #fff;
+	}
+
+
+
+	video{
+		position: fixed;
+		min-width: 100%;
+		min-height: 100%;
+
+		top:50%;
+		left: 50%;
+		transform: translateX(-50%) translateY(-50%);
+
+	}
+
+	.slider{
+		display: none;
+	}
+/*-------------------------------------------------------------------------------------------------------------------------*/
+
+.contenedor_logo_filosofia{
+	width: 210px;
+	margin-left: 30px;
+	margin-top: 20px;
+	margin-top: 13px;
+	float: left;
+}
+	
+
+.contenedor_logo_filosofia img{
+	width: 100%;
+}
+.contenedor1{
+	max-width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	padding-top: 1px;
+	position: relative;
+}
+.caja_vision{
+	width: 60%;
+	height: 400px;
+	background-color: #fff;
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	padding: 100px;
+	padding-right: 150px;
+	padding-left: 70px;
+	font-family: fuenteplantagro;
+	color: #003a55;
+}
+.caja_vision h1{
+	width: 90px;
+	font-size: 40px;
+	padding-bottom: 10px;
+	margin-bottom: 18px;
+	border-bottom: 4px solid #003a55;
+	font-family: helvetica;
+}
+.caja_imagen_vision{
+	width: 50%;
+	height: 350px;
+	background-image: url('../img/CANA-AZUCAR.png');
+	background-size: 100%;
+	position: absolute;
+	top: 50%;
+	right: 0px;
+	-webkit-transform: translateY(-50%);
+	z-index: 111;
+}
+
+.vision{
+	width: 600px;
+	height: 200px;
+	z-index: -1;
+	position: absolute;
+	top: 20%;
+	right: 0px;
+	-webkit-transform: translateY(-50%);
+
+}
+.vision h1{
+	font-size: 190px;
+	color: #f0c423;
+	font-family: helvetica;
+}
+
+
+
+
+
+
+.caja_mision{
+	width: 60%;
+	height: 400px;
+	background-color: #fff;
+	position: absolute;
+	top: 50%;
+	right: 0px;
+	-webkit-transform: translateY(-50%);
+	padding: 100px;
+	padding-right: 70px;
+	padding-left: 150px;
+	font-family: fuenteplantagro;
+	color: #003a55;
+}
+.caja_mision h1{
+	width: 90px;
+	font-size: 40px;
+	padding-bottom: 10px;
+	margin-bottom: 18px;
+	border-bottom: 4px solid #003a55;
+	font-family: helvetica;
+}
+.caja_imagen_mision{
+	width: 50%;
+	height: 350px;
+	background-image: url('../img/Foto-producto-fert.png');
+	background-size: 100%;
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	-webkit-transform: translateY(-50%);
+}
+
+.mision{
+	width:600px;
+	height:200px;
+	z-index: -1;
+	position: absolute;
+	top: 20%;
+	left: 0px;
+	-webkit-transform: translateY(-50%);
+
+}
+.mision h1{
+	font-size: 190px;
+	color: #f0c423;
+	font-family: helvetica;
+}
+
+
+
+
+
+
+.caja_imagen_valores{
+	width: 50%;
+	height: 350px;
+	background-image: url('../img/plantagro_img.jpg');
+	background-size: 100%;
+	position: absolute;
+	top: 50%;
+	right: 0px;
+	-webkit-transform: translateY(-50%);
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+.caja_fertilizantes{
+	width: 60%;
+	height: 400px;
+	background-color: #fff;
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	padding: 30px;
+	padding-right: 150px;
+	padding-left: 70px;
+	font-family: fuenteplantagro;
+	color: #003a55;
+}
+
+.caja_fertilizantes h1{
+	width: 90px;
+	font-size: 40px;
+	padding-bottom: 10px;
+	margin-bottom: 18px;
+	border-bottom: 4px solid #003a55;
+	font-family: helvetica
+}
+.caja_fertilizantes p{
+	margin-bottom: 30px;
+
+}
+
+
+.productos{
+	width: 600px;
+	height: 200px;
+	z-index: -1;
+	position: absolute;
+	top: 20%;
+	right: 0px;
+	-webkit-transform: translateY(-50%);
+}
+
+.productos h1{
+	font-size: 190px;
+	color: #ededed;
+	font-family: helvetica;
+}
+
+.caja_imagen_fertilizantes{
+	width: 50%;
+	height: 350px;
+	background-image: url('../img/Foto-producto-fert.png');
+	background-size: 100%;
+	position: absolute;
+	top: 50%;
+	right: 0px;
+	-webkit-transform: translateY(-50%);
+	z-index: 111;
+}
+
+h3{
+	color: #e6be29;
+	margin-bottom: 20px;
+}
+
+.lista_fertilizantes{
+	list-style: none;
+	font-size: 12px;
+}
+
+.lista_fertilizantes li a{
+	text-decoration: none;
+	color: #003e6c;
+}
+
+
+
+
+
+
+.caja_mezclas{
+	width: 60%;
+	height: 400px;
+	background-color: #fff;
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	padding: 30px;
+	padding-right: 150px;
+	padding-left: 70px;
+	font-family: fuenteplantagro;
+	color: #003a55;
+}
+
+.caja_mezclas h1{
+	width: 400px;
+	font-size: 40px;	
+	padding-bottom: 10px;
+	margin-bottom: 18px;
+	border-bottom: 4px solid #003a55;
+	font-family: helvetica;
+}
+
+.caja_mezclas p{
+	margin-bottom: 30px;
+}
+
+.caja_imagen_mezcla{
+	width: 50%;
+	height: 350px;
+	background-image: url('../img/plantagro_img.jpg');
+	background-size: 100%;
+	position: absolute;
+	top: 50%;
+	right: 0px;
+	-webkit-transform: translateY(-50%);
+	z-index: 111;
+}
+
+.contenedorimg_costales{
+	width: 260px;
+	height: 180px;
+	background-image: url("../img/costales.png");
+	background-size: 100%;
+}
+
+
+
+.caja_imagen_mezcla_responsive{
+	width: 250px;
+}
+.caja_imagen_mezcla_responsive img{
+	width: 100%;
+}
+
+
+.contenedor_scroll{
+	height: 350px;
+	overflow: auto;
+}
+
+
+.containerdes_productos_scroll{
+	height: 350px;
+	overflow: auto;
+}
+
+/*---------------------------------------------------------------------------------------------------------------*/
+
+
+.contenedor_centrado{
+	width: 100%;
+	height: 600px;
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	z-index: 111;
+}
+
+.caja_servicios{
+	width: 300px;
+	height: 100px;
+	position: absolute;
+	top: 22%;
+	-webkit-transform: translateY(-50%);
+	padding: 30px;
+	padding-right: 150px;
+	padding-left: 70px;
+	font-family: fuenteplantagro;
+	color: #003a55;
+}
+
+.caja_servicios h1{
+	width: 90px;
+	font-size: 40px;
+	padding-bottom: 10px;
+	margin-bottom: 18px;
+	border-bottom: 4px solid #003a55;
+	font-family: helvetica;
+}
+
+
+
+
+.caja_contenedor_iconos{
+	width: 80%;
+	height: 430px;
+	padding-top: 30px;
+	background-color: #fff;
+	background-size: 100%;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+
+}
+
+
+.iconos{
+	text-align: center;
+}
+
+.iconos li{
+	width: 150px;
+	height: 150px;
+	margin-right: 50px;
+	margin-left: 50PX;
+	display: inline-block;
+	list-style: none;
+}
+
+.contenedoricono{
+	width: 70px;
+	height: 70px;
+	background-image: url('../img/lupa.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+.contenedoricono2{
+	width: 70px;
+	height: 70px;
+	background-image: url('../img/icono2.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+.contenedoricono3{
+	width: 70px;
+	height: 70px;
+	background-image: url('../img/icono3.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+.contenedoricono4{
+	width: 70px;
+	height: 70px;
+	background-image: url('../img/icono4.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+.contenedoricono5{
+	width: 70px;
+	height: 70px;
+	background-image: url('../img/icono5.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+.contenedoricono6{
+	width: 65px;
+	height: 70px;
+	background-image: url('../img/icono6.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+.tit{
+	font-weight: bold;
+	color: #003a55;
+	font-family: fuenteplantagro;
+	margin-bottom: 10px;
+}
+
+.titp{
+	font-family: fuenteplantagro;
+	font-size: 11px;
+}
+
+
+
+
+.caja_servicios_responsiv{
+	width: 300px;
+	height: 100px;
+	position: absolute;
+	top: 150px;
+	left: 20px;
+	font-family: fuenteplantagro;
+	color: #003a55;
+	display: none;
+}
+
+.caja_servicios_responsiv h1{
+	width: 90px;
+	font-size: 40px;
+	padding-bottom: 10px;
+	margin-bottom: 18px;
+	border-bottom: 4px solid #003a55;
+	font-family: helvetica;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+.caja_contenedor_mapa{
+	width: 80%;
+	height: 430px;
+	padding-top: 30px;
+	background-color: #fff;
+	background-size: 100%;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	background-image: url('../img/mapa-1.png');
+	background-size: 100%;
+}
+
+.mas{
+	width: 50px;
+	height: 50px;
+	position: relative;
+	top: 300px;
+	left: -170px;
+	background-image: url("../img/cruz-color.png");
+	background-size: 100%;
+	cursor: pointer;
+}
+
+.contenedor_estados{
+	width: 150px;
+	height: auto;
+	position: relative;
+	top: 100px;
+	left: -100px;
+	color: #003a55;
+	display: none;
+}
+
+.firts{
+	text-align: center;
+	background-color: #f9cd29;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+.second{
+	text-align: center;
+	background-color: #fdeba9;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+
+	.container_localizacion{
+		width: 80%;
+		height: auto;
+		margin: 0 auto;
+		margin-top: 200px;
+		padding-right: 0px;
+		padding-left: 0px;
+		display: none;
+		background-color: #fff;
+		
+	}
+
+	.container_localizacion img{
+		width: 100%;
+	}
+
+.mas_responsive{
+	width: 50px;
+	height: 50px;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	cursor: pointer;
+}
+
+.mas_responsive img{
+	width: 100%;
+}
+
+
+.contenedor_estados_responsive{
+	width: 100%;
+	height: auto;
+	position: relative;
+	bottom:0px;
+	display: none;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+.caja_imagen_contacto{
+	width: 50%;
+	height: 350px;
+	background-image: url('../img/Foto-contacto.png');
+	background-size: 100%;
+	position: absolute;
+	top: 50%;
+	right: 0px;
+	-webkit-transform: translateY(-50%);
+	z-index: 111;
+}
+.contacto{
+	width: 600px;
+	height: 200px;
+	z-index: -1;
+	position: absolute;
+	top: 20%;
+	right: 0px;
+	-webkit-transform: translateY(-50%);
+}
+
+.contacto h1{
+	font-size: 190px;
+	color: #013147;
+	font-family: helvetica;
+}
+
+
+.caja_contacto{
+	width: 60%;
+	height: 470px;
+	background-color: #f8f8f8;
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	padding: 20px;
+	padding-right: 150px;
+	padding-left: 70px;
+	font-family: fuenteplantagro;
+	color: #003a55;
+}
+.caja_contacto h1{
+	width: 90px;
+	font-size: 40px;
+	padding-bottom: 10px;
+	margin-bottom: 18px;
+	border-bottom: 4px solid #003a55;
+	font-family: helvetica;
+}
+
+.caja_contacto p{
+	font-family: fuenteplantagro;
+}
+
+.contenedorform_izquierdo{
+	width: 48%;	
+	float: left;
+}
+
+.contenedorform_izquierdo label{
+	width: 100%;
+	font-family: fuenteplantagro;
+	font-size: 12px;
+}
+
+.contenedorform_izquierdo input{
+	width: 100%;
+	height: 30px;
+	margin-bottom: 10px;
+	background-color: #ebebeb;
+	border:none;
+}
+
+
+.contenedorform_derecho{
+	width: 48%;
+	float: right;
+}
+
+.contenedorform_derecho label{
+	width: 100%;
+	font-size: 12px;
+	font-family: fuenteplantagro;
+}
+
+.contenedorform_derecho input{
+	width: 100%;
+	height: 30px;
+	margin-bottom: 10px;
+	background-color: #ebebeb;
+	border:none;
+}
+
+.contenedorform_abajo{
+ width: 100%;
+ clear: both;
+}
+
+.contenedorform_abajo label{
+	font-family: fuenteplantagro;
+	font-size: 12px;
+}
+
+.contenedorform_abajo textarea{
+	width: 100%;
+	height: 60px;
+	background-color: #ebebeb;
+	border:none;
+}
+
+.boton_formulario{
+	width: 80px;
+	height: 30px;
+	border-radius: 15px;
+	background-color: #223d55;
+	color: #fff;
+	border:none;
+	cursor: pointer;
+}
+
+.boton_formularioreset{
+	width: 80px;
+	height: 30px;
+	border-radius: 15px;
+	background-color: #223d55;
+	color: #fff;
+	border:none;
+	cursor: pointer;
+}
+
+#form_responsive input{
+	width: 100%;
+	height: 30px;
+	margin-bottom: 15px;
+	border:none;
+	background-color: #ebebeb;
+	padding-left: 5px;
+}
+
+
+#form_responsive textarea{
+	width: 100%;
+	height: 80px;
+	background-color: #ebebeb;
+	border:none;
+}
+
+#contacto:hover{
+	color: #f8cd29;
+}
+
+
+
+/*-----------------------------------------------------------------------------------------------------------------------*/
+
+.caja_contenedor_sitios{
+	width: 80%;
+	height: 430px;
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	background-color: #fff;
+	background-size: 100%;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+
+article{
+	width: 100%;
+	height: 80px;
+	margin-bottom: 40px;
+}
+
+article .contenedor_imagenfila{
+	width: 120px;
+	height: 80px;
+	float: left;
+	background-image: url('../img/icono_elsurco.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.contenedor_texto{
+	width: 700px;
+	height: 80px;
+	padding-left: 140px;
+	font-family: fuenteplantagro;
+	color: #003a55;
+}
+.enlace{
+	color: #f9cd29;
+}
+.enlace a{
+	text-decoration: none;
+	color: #f9cd29;
+}
+
+.enlace_responsive{
+	color: #f9cd29;
+}
+.enlace_responsive a{
+	text-decoration: none;
+	color: #f9cd29;
+}
+
+
+
+
+
+.contenedor_imagenfila2{
+	width: 120px;
+	height: 80px;
+	float: left;
+	background-image: url('../img/icono_accuweather.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.contenedor_imagenfila3{
+	width: 120px;
+	height: 80px;
+	float: left;
+	background-image: url('../img/icono_theweatherchannel.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+
+
+.article{
+	width: 100%;
+	height: auto;
+	margin-bottom: 40px;
+}
+
+.contenedor_imagenfila_responsive{
+	width: 130px;
+	margin-bottom: 0px;
+}
+
+.contenedor_imagenfila_responsive img{
+	width: 100%;
+}
+
+
+.contenedor_imagenfila2_responsive{
+	width: 130px;
+
+}
+
+.contenedor_imagenfila2_responsive img{
+	width: 100%;
+}
+
+
+.contenedor_imagenfila3_responsive{
+	width: 120px;
+	margin-bottom: 10px;
+}
+
+.contenedor_imagenfila3_responsive img{
+	width: 100%;
+}
+
+.contenedor_texto_responsive p{
+	color: #003454;
+}
+
+/*-------------------------------------------------------MEDIA QUERYS--------------------------------------------------------*/
+
+
+.boton_menu{
+	width: 40px;
+	height:40px;
+	float: right;
+	display: none;
+	margin-top: 30px;
+	margin-right: 30px;
+	cursor: pointer;
+}
+.boton_menu img{
+	width: 100%;
+}
+
+@media screen and (max-width: 1100px)  {
+
+	body{
+	all:initial;																																
+	}
+
+	.container{
+		display: block;
+	}
+
+	.container_servicio{
+		display: block;
+	}
+
+	.caja_servicios_responsiv{
+		display: block;
+	}
+
+
+	.container_localizacion{
+		display: block;
+
+	}
+
+	.container_sitios{
+		display: block;
+	}
+
+
+
+#nav_menu{
+	display: none;
+}
+
+.boton_menu{
+	display: block;
+}
+
+.intro{
+	font-size: 20px;
+}
+
+.contenedor_logo{
+	display: none;
+}
+
+.contenedor_derecho{
+	all: initial;
+	box-sizing: border-box;
+	font-family: fuenteplantagro;
+	width: 100%;
+	height: 200px;
+	background-color: rgba(236,188 ,14 , 0.8);
+	position: absolute;
+	bottom: 0px;
+	padding:30px 30px;
+	z-index: 111;
+}
+.contenedor_pie{
+	all:initial;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	bottom: 20px;
+	right: 10px;
+}
+.pie_pagina{
+	display: none;
+}
+
+.contenedor_mas{
+	all:initial;
+	width: 50px;
+	padding-bottom: 5px;
+	float: right;
+}
+.contenedor_logo_responsiv{
+	display: block;
+}
+
+
+
+
+
+
+
+#nav_responsive{
+		background-color: #bf9333;
+		position: absolute;
+		top: 100px;
+		left: 0px;
+		width: 100%;
+		text-align: center;
+		padding: 0px;
+		z-index: 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111;
+		
+	}
+	#nav_responsive .li_responsive{
+		display: block;
+		width: 100%;
+		text-align: center;
+		border-radius: 0px;
+		margin: 0 auto;	
+		font-size: 15px;
+		color: #fff;
+		padding: 15px;	
+		z-index: 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111;	
+	}
+	#nav_responsive  a{
+		text-decoration: none;
+	}
+	#nav_responsive .li_responsive:hover{
+		background-color: #a17c2b; 
+	}
+	 .icon-menu{
+		cursor: pointer;
+		display: block;
+		float: right;
+		margin-right: 20px;
+		margin-top: 22px;
+		font-size: 33px;
+	}
+
+
+/*----------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+	.contenedor_logo_filosofia{
+		display: none;
+	}
+
+.caja_vision{
+	all:initial;
+	width:500px;
+	height:200px;
+	background-color: #fff;
+	padding: 20px;
+	font-family: fuenteplantagro;
+	color: #003a55;
+	position: absolute;    
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, -0%);
+    -webkit-transform: translate(-50%, -0%);
+    z-index: 11;
+}
+
+
+.caja_imagen_vision{
+	all:initial;
+	width:535px;
+	height:250px;
+	background-image: url('../img/Foto-mision.png');
+	background-size: 100%;
+
+
+	
+	
+
+
+	position: absolute;    
+    left: 50%;
+    bottom: 200px;
+    transform: translate(-50%, -0%);
+    -webkit-transform: translate(-50%, -0%);
+}
+
+.slider{
+		display: block;
+	}
+	video{
+		display: none;
+	}
+
+
+}
+
+@media screen and (max-width: 600px)  {
+	.container{
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+		margin-top: 100px;
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+
+
+	.containerimg_vision{
+		width: 100%;
+		height: auto;
+	
+		margin: 0 auto;
+	}
+
+	.containerimg_vision img{
+		width: 100%;
+		z-index: -111;
+	}
+
+	.containerdes_vision{
+		background-color: #fff;
+		padding: 30px;
+		width: 90%;
+		
+		float: right;
+		
+		z-index: 11111;
+		
+		color: #003454;
+		margin-bottom: 60px;
+	}
+
+	.containerdes_productos{
+		background-color: #fff;
+		padding: 30px;
+		width: 90%;
+		height: 400px;
+		float: right;
+		
+		z-index: 11111;
+		
+		color: #003454;
+		margin-bottom: 60px;
+	}
+
+
+
+	.container_servicio{
+		width: 80%;
+		height: auto;
+		margin: 0 auto;
+		margin-top: 200px;
+		padding-right: 0px;
+		padding-left: 0px;
+		float: right;
+		background-color: #fff;
+	}
+
+
+	.container_localizacion{
+		width: 100%;
+		padding-top: 30px;
+	}
+
+
+	.container_sitios{
+		width: 80%;
+		height: auto;
+		margin: 0 auto;
+		margin-top: 200px;
+		padding-right: 0px;
+		padding-left: 0px;
+		float: right;
+	
+		padding: 20px;
+	}
+}
+

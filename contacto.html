@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>Plantagro - Contacto</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/png" href="img/favicon.png" />
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/fuentes.css">
+		<link rel="stylesheet" href="css/superslides2.css">
+</head>
+<body style="background-color:#003454;" class="animated bounceInRight">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $(".boton_menu").click(function(){
+        $("#nav_responsive").slideToggle();
+    });
+});
+</script>
+<header  style="background-color:#003454;">
+
+	<div class="contenedor_logo_responsiv">
+			<a href="index.html"><img src="img/logo.gif"></a>
+	</div>
+
+	<div class="contenedor_logo_filosofia">
+		<a href="index.html"><img src="img/logo.gif"></a>
+	</div>
+	<nav >
+		<ul id="nav_menu">
+			<li><a href="filosofia.html">Filosofia</a></li>
+			<li><a href="servicio.html">Servicio</a></li>
+			<li><a href="localizacion.html">Localización</a></li>
+			<li><a href="productos.html">Productos</a></li>
+			<li><a href="contacto.html">Contacto</a></li>
+			<li><a href="sitios.html">Sitios</a></li>
+			<li><a href="eng/index.html">Eng</a></li>
+		</ul>
+	</nav>
+
+		<div id="nav_responsive">
+				<a href="filosofia.html"><li  class="li_responsive">Filosofia</li></a>
+				<a href="servicio.html"><li class="li_responsive">Servicio</li></a>
+				<a href="localizacion.html"><li class="li_responsive">Localización</li></a>
+				<a href="productos.html"><li class="li_responsive">Productos</li></a>
+				<a href="contacto.html"><li class="li_responsive">Contacto</li></a>
+				<a href="sitios.html"><li class="li_responsive">Sitios</li></a>
+				<a href="eng/index.html"><li class="li_responsive">Eng</li></a>
+
+		</div>
+	<div class="boton_menu">
+		<img src="img/boton_menu.png">
+	</div>
+
+</header>
+
+	<div id="slides">
+
+
+		<ul class="slides-container">
+			<li>
+				<img src="img/fondo_azul.jpg" alt="">
+				<div class="contenedor1">
+
+
+					<div class="caja_contacto">
+						<h1>Contacto</h1>
+						<p>Utiliza el siguiente formulario para enviar tus comentarios o solicitar información.</p>
+						<br>
+						<form action="enviar.php" method="post">
+							<div class="contenedorform_izquierdo">
+								<label>Nombre (Requerido)</label>
+								<input type="text" name="nombre" required>
+								<label>Ciudad, Estado, País (Requerido)</label>
+								<input type="text" name="ciudad" required>
+								<label>Dirección</label>
+								<input type="text" name="direccion">
+							</div>
+							<div class="contenedorform_derecho">
+								<label>Correo Electrónico (Requerido)</label>
+								<input type="email" name="correo" required>
+								<label>Compañía (Requerido)</label>
+								<input type="text" name="compania" required>
+								<label>Teléfono</label>
+								<input type="tel" name="telefono">
+							</div>
+
+							<div class="contenedorform_abajo">
+							<label>Comentarios</label>
+								<textarea name="comentario"></textarea>
+							</div>
+							<br>
+							<input class="boton_formulario" type="submit" name="" value="Enviar">
+							<input class="boton_formularioreset" type="reset" name="" value="Cancelar">
+						</form>
+
+					</div>
+
+					<div class="contacto">
+						<h1>Contactos</h1>
+					</div>
+					<div class="caja_imagen_contacto">
+
+					</div>
+				</div>
+			</li>
+
+		</ul>
+		<nav class="slides-navigation">
+
+		</nav>
+	</div>
+
+
+
+<br>
+
+
+<div class="container">
+		<div class="containerimg_vision">
+			<img src="img/Foto-contacto.png">
+		</div>
+
+		<div class="containerdes_vision">
+			<h1>Contacto</h1>
+			<br>
+			<p>Utiliza el siguiente formulario para enviar tus comentarios o solicitar informacion.</p>
+			<br>
+			<form id="form_responsive" action="enviar.php" method="post">
+								<label>Nombre (Requerido)</label>
+								<input type="text" name="nombre" required>
+								<label>Ciudada, Estado, Pais (Requerido)</label>
+								<input type="text" name="ciudad" required>
+								<label>Direccion</label>
+								<input type="text" name="direccion">
+								<label>Correo electronico (Requerido)</label>
+								<input type="email" name="correo" required>
+								<label>Compañia (Requerido)</label>
+								<input type="text" name="compania" required="">
+								<label>Telefono</label>
+								<input type="tel" name="telefono">
+								<label>Comentarios</label>
+								<textarea name="comentario"></textarea>
+								<br>
+								<input  style="width: 95px; height: 40px; border-radius: 20px; background-color: #223d55; color: #fff; border:none; margin-top:20px; cursor: pointer;" class="boton_formulario" type="submit" name="" value="Enviar">
+								<input style="width: 95px; height: 40px; border-radius:20px; background-color: #223d55; color: #fff; border:none;cursor: pointer;" class="boton_formularioreset" type="reset" name="" value="Cancelar">
+			</form>
+
+
+		</div>
+</div>
+
+
+	 <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+	 <script src="js/jquery.superslides2.js"></script>
+</body>
+</html>

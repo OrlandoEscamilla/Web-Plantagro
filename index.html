@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>Plantagro</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/png" href="img/favicon.png" />
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/fuentes.css">
+		<link rel="stylesheet" href="css/superslides.css">
+</head>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $(".boton_menu").click(function(){
+        $("#nav_responsive").slideToggle();
+    });
+});
+</script>
+
+
+
+<header>
+		<div class="contenedor_logo_responsiv">
+			<a href="index.html"><img src="img/logo.gif"></a>
+		</div>
+	<nav id="nav_menu">
+		<ul>
+			<li><a href="filosofia.html">Filosofia</a></li>
+			<li><a href="servicio.html">Servicio</a></li>
+			<li><a href="localizacion.html">Localización</a></li>
+			<li><a href="productos.html">Productos</a></li>
+			<li><a href="contacto.html">Contacto</a></li>
+			<li><a href="sitios.html">Sitios</a></li>
+			<li><a href="eng/index.html">Eng</a></li>
+		</ul>
+	</nav>
+
+
+		<div id="nav_responsive">
+				<a href="filosofia.html"><li  class="li_responsive">Filosofia</li></a>
+				<a href="servicio.html"><li class="li_responsive">Servicio</li></a>
+				<a href="localizacion.html"><li class="li_responsive">Localización</li></a>
+				<a href="productos.html"><li class="li_responsive">Productos</li></a>
+				<a href="contacto.html"><li class="li_responsive">Contacto</li></a>
+				<a href="sitios.html"><li class="li_responsive">Sitios</li></a>
+				<a href="eng/index.html"><li class="li_responsive">Eng</li></a>
+		</div>
+
+	<div class="boton_menu">
+		<img src="img/boton_menu.png">
+	</div>
+</header>
+<div class="contenedor_derecho">
+
+	<div class="contenedor_logo">
+		<a href="index.html"><img src="img/logo.gif"></a>
+	</div>
+
+	<p class="intro animated fadeInUp">Somos una empresa lider que distribuye fertilizantes <br> granulados y solubles de calidad.</p>
+	<div class="contenedor_pie">
+	<div class="contenedor_mas animated fadeInUp">
+		<a href="filosofia.html"><img src="img/cruz-gris.png"></a>
+	</div>
+
+		<p class="pie_pagina">PLANTAGRO. <br>Antiguo camino a ex-hacienda San Agustín Km. 2.0
+		 <br>Cd. Mante Tam. CP 89838 <br> Tel: 52(831)232-9196. <br> E-mail ventas@plantagro.net</p>
+	</div>
+</div>
+
+
+<video src="video.mp4" autoplay loop>
+
+</video>
+
+	<div id="slides" class="slider">
+
+
+		<ul class="slides-container">
+			<li>
+				<img src="img/3.jpg" alt="">
+			</li>
+			<li>
+				<img src="img/5.jpg" alt="">
+			</li>
+			<li>
+				<img src="img/6.jpg" alt="">
+			</li>
+
+
+		</ul>
+		<nav class="slides-navigation">
+
+		</nav>
+	</div>
+
+
+
+	 <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+	 <script src="js/jquery.superslides.js"></script>
+</body>
+</html>
